@@ -61,9 +61,9 @@ body, html{
 
 @media screen and (max-width: 750px) {
   .fonda {
-      left: 92%;
+      left: 93%;
       top: 30px;
-      transform: scale(2.4);
+      transform: scale(2.5);
   }
 }
 
@@ -114,14 +114,9 @@ body, html{
   padding-top: 40px;
   padding-left: 20px;
 }
-
 .fact2{
   margin-left: 38px;
 }
-
-.fact3{
-}
-
 .fact{
   color: rgb(219, 217, 244);
   font-size: 20px;
@@ -131,13 +126,11 @@ body, html{
   text-decoration: none;
   transition: all, 0.2s, 0.3s;
 }
-
 .fact:hover{
   color: red;
   font-size: 25px;
   transition: all, 0.2s, 0,2s;
 }
-
 .menu{
   display: none;
 }
@@ -197,8 +190,8 @@ body, html{
 }
 
 .overlay a{
-  padding: 15px;
-  font-size: 25px;
+  padding: 28px;
+  font-size: 6vw;
   display: block;
   transition: all 0.3s ease 0s;
   font-weight: 700;
@@ -278,6 +271,7 @@ body, html{
       left: 5%;
       top: 20%;
   }
+
 }
 
 .wa {
@@ -629,10 +623,12 @@ aside{
   .redes {
       width: 40px;
       font-size: 30px;
+
   }
 
   .whatsapp {
       font-size: 50px;
+      left: 2%;
   }
 }
 
@@ -726,7 +722,7 @@ svg text {
       margin-bottom: 0;
   }
   .intro text {
-      font-size: 31px;
+      font-size: 8vw;
       transform: translateY(70%);
       stroke-width: 0.5;
   }
@@ -802,9 +798,11 @@ svg text {
 }
 .comentarioss h2{
   position: absolute;
+  display: flex;
   left: 76%;
   width: 100%;
   top: 30%;
+
 }
 .transparentee{
   width: 100%;
@@ -818,8 +816,6 @@ svg text {
   left: 50%;
 }
 .comentario {
-  
-  
   display: flex;
   width: 40%;
   height: 40%;
@@ -830,7 +826,7 @@ svg text {
 .comentario div{
   display: flex;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
   .comentarios {
       top: 0%;
       width: 80%;
@@ -841,13 +837,16 @@ svg text {
   }
   .transparente{
       position: absolute;
-      height: 90px;
-      margin-top: 5%;
+      height: 70px;
+      margin-top: 9%;
       margin-left: 3%;
   }
   .comentarios h2 {
       position: absolute;
       text-align: center;
+      font-size: 20px;
+      justify-content: center;
+      align-items: center;
   }
   .prof{
     padding-left: 0%;
@@ -866,16 +865,21 @@ svg text {
   .comentarioss{
     width: 82%;
     margin-bottom: 390%;
-    left: 8%;
+    left: 10%;
   }
   .comentarioss h2{
-    left: 13%;
-    font-size: 20px;
+    left: 5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 17px;
     width: 100%;
   }
   .transparentee{
-    width: 100%;
-    left: 7%;
+    width: 98%;
+    position: absolute;
+    left: 5%;
+    height: 80px;
   }
  .comentario{
   flex-direction: column;
