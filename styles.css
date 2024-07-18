@@ -258,7 +258,7 @@ body, html{
   align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
   .todo{
     padding-top:5%;
@@ -272,7 +272,7 @@ body, html{
 
   }
   .nudo h1{
-    font-size: 3vw;
+    font-size: 2vw;
   }
 }
 
