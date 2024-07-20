@@ -62,18 +62,19 @@ body, html{
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .fonda {
     width: 700px;
-      top: 30px;
-    left: 10%;
+      top: 20px;
+    left: 25%;
     height: 50px; 
   }
   .fonda text{
+  
     font-size: 70px;
-    transform: translateX(10%);
+   }
   }
-}
+
 
 .logo{
   width: 80px;
@@ -572,20 +573,21 @@ aside{
     .texto {
       margin-left: 0; 
       padding: 10px;
-      width: 250px;
+      width: 100%
     }
   
     .texto h2 {
-      font-size: 20px; 
+      font-size: 5vw; 
       margin-top: 10px;
       margin-bottom: 15px;
+      width: 100%;
     }
   
     .animado {
-      font-size: 20px;
+      font-size: 5vw;
       padding-top: 10px;
       margin-top: 10px;
-      margin-left: 223px;
+      margin-left: 80%;
       width: 300px;
     }
     .barra {
@@ -847,32 +849,32 @@ svg text {
   top: 0;
  
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
   .comentarios {
       top: 60px;
       width: 80%;
       margin-left: 10%;
-      margin-bottom: 600px;
+      margin-bottom: 500px;
       justify-content: center;
       align-items: center;
 
   }
   .comentarios img{
-    height: 500px;
+    height: 450px;
     width: 80%;
     max-width: 300px;
-   
+    transform: translateY(-50px);
   }
   .transparente{
       position: absolute;
       height: 70px;
-      margin-left: 3%;
-      width: 85%;
+      margin-left: 2%;
+      width: 98%;
   }
   .comentarios h2 {
       position: absolute;
       text-align: center;
-      font-size: 3vw;
+      font-size: 3.8vw;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -885,18 +887,20 @@ svg text {
     height: 400px;
     width: 80%;
     max-width: 300px;
+    transform: translateY(180px);
     position: absolute;
-    transform: translateY(600px);
-    margin-top: 0;
-   
+    align-content: center;
+    margin: auto;
+    
   }
   .comentarioss{
-    width: 82%;
+    width: 80%;
     margin-bottom: 1800px;
-    left: 10%;
+    position: relative;
+    align-items: center;
   }
   .comentarioss h2{
-    left: 5%;
+    left: 15% ;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -904,22 +908,26 @@ svg text {
     width: 100%;
   }
   .transparentee{
-    width: 98%;
+    width: 88%;
     position: absolute;
-    left: 5%;
     height: 80px;
+    left: 20%;
   }
  .comentario{
+  position: absolute;
   flex-direction: column;
   gap: 500px;
-  left: 0;
-  transform: translateY(-530px);
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  margin-left: -80px;
  } 
  .div{
   top:0;
   margin-bottom: 400px;
   gap: 30px;
-
+  left: 0;
 
  }
 }
@@ -1048,14 +1056,14 @@ svg text {
   transform: perspective(600px) rotateY(360deg);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
   .nudos{
       top: 0;
       padding-left: 0;
       margin-bottom: 0;
   }
   .nudos h2{
-    font-size: 4vw;
+    font-size: 4.5vw;
   }
 
   .contenedorcard {
@@ -1064,8 +1072,9 @@ svg text {
       gap: 20%;
       width: 100%;
       height: auto;
-      display: block;
-      left: 18%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin-bottom: 0;
   }
 
